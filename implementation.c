@@ -31,10 +31,10 @@ void setVal(struct myArray *a){
     }
 }
 
-int main(){
+int main(){ 
     struct myArray marks;
     createArray(&marks, 10, 2);
-    printf("We are running setVal\n");
+    printf("We are running setVal now\n");
     setVal(&marks);
     printf("We are running show now\n");
     show(&marks);
